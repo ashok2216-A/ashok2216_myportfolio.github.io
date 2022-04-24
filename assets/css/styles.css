@@ -485,7 +485,7 @@ div.text {
 
 /* Footer */
 .footer {
-  background-color: var(--second-color);
+  background-color: gray;
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
@@ -655,3 +655,9 @@ background: black;
 .blog_container {
   row-gap: 2rem;
 }
+
+.foo_text{
+  color : gray;
+}
+
+
