@@ -619,7 +619,7 @@ div.text {
 .scroll {
 border: none;
 /*padding: 1px;*/
-font: 24px/36px sans-serif;
+/* font: 24px/36px sans-serif; */
 width: 200px;
 height: 200px;
 overflow: scroll;
