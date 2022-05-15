@@ -619,22 +619,22 @@ div.text {
 .scroll {
 border: none;
 /*padding: 1px;*/
-/* font: 24px/36px sans-serif; */
+font: 24px/36px sans-serif;
 width: 200px;
 height: 200px;
 overflow: scroll;
 }
 ::-webkit-scrollbar {
-width: 12px;
-height: 12px;
+width: 0px;
+height: 0px;
 }
 ::-webkit-scrollbar-track {
-border: 1px black;
-border-radius: 10px;
+border: 0px black;
+border-radius: px;
 }
 ::-webkit-scrollbar-thumb {
 background: black;
-border-radius: 10px;
+border-radius: 0px;
 }
 ::-webkit-scrollbar-thumb:hover {
 background: black;
