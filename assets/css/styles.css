@@ -630,7 +630,7 @@ height: 0px;
 }
 ::-webkit-scrollbar-track {
 border: 0px black;
-border-radius: px;
+border-radius: 0px;
 }
 ::-webkit-scrollbar-thumb {
 background: black;
