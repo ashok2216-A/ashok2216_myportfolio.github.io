@@ -1,1 +1,1 @@
-$ git lfs track "assets/icons/icon1.png" --lockable
+$ git lfs track "./assets/icons/icon1.png" --lockable
