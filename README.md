@@ -34,6 +34,9 @@ Jim Ramsden does a great job at keeping his tagline simple with just a few phras
 
 Filip Turner’s tagline is unique, to the point, and communicates what he can to do to help a potential client.
 
+![image](https://user-images.githubusercontent.com/74713336/169637909-d185a223-3317-49e8-a27f-455bb8ba4935.png)
+
+
 # 3. Clearly List Your Services
 In most instances, visitors want to understand the types of services you offer quickly. Do not make them search your site to find out. Chances are you will lose them.
 
@@ -64,11 +67,8 @@ It doesn’t hurt to put a picture in this section to help humanize your profile
 
 Here are some good examples of designers who have utilized the “About Me” section correctly.
 
+![image](https://user-images.githubusercontent.com/74713336/169637961-d7eb68fb-4059-4759-8f2f-fa539fb248be.png)
 
-Krista Gray includes detailed information on her experience as well as how much experience she has. Great job, Krista!
-
-
-We are back to Devon Stank, but this guy is doing so much right. He starts out with a brief introduction, followed by a video to help visitors understand his passion behind the work he creates. When you scroll down you get additional insight as to who he is as a person, and how this helped get him on the career path he is on.
 
 # 6. Make Your Contact Info Prominent
 If you take nothing else away from this article, make sure you remember this, make your contact information prominent and visible. This is where many designers fall short. It can be as simple as adding a contact form to your website or adding small icons in the header or footer of your website’s design.
@@ -76,6 +76,10 @@ If you take nothing else away from this article, make sure you remember this, ma
 It is also a good idea to include buttons for the various social media networking sites you are on, especially LinkedIn. Before you add social networking sites, make sure you do not have any inappropriate images, videos, or posts that could deter potential employers or clients from hiring you.
 
 You may also want to add an additional tab specifically for contact information, that way all your bases are covered. Here are some examples of how other designers are displaying their contact information.
+
+
+![image](https://user-images.githubusercontent.com/74713336/169637968-6695bcad-8247-4753-8979-31df30e17b06.png)
+
 
 # 7. Include Your Resume
 It seems almost like a no-brainer, but the number of website portfolios that do not include a resume would surprise you. In addition to displaying your work and having a detailed “About Me” section, a resume helps a potential employer understand your related work experience and educational background in much more detail.
@@ -89,6 +93,10 @@ You can see how he makes it easy for a visitor to download his resume as a PDF a
 A blog is a great way to show off your expertise within the industry. It can also help your website be found on the search engines if the content is SEO-optimized. Make sure to enable comments on your blog so you can interact with your readers.
 
 Creating unique and engaging industry-related blog material will display your expertise within the field, which can further add to your credibility. If you are going to create a blog, make sure you add fresh content to it frequently. There is nothing more frustrating from a user perspective than navigating to a blog only to­­ see one or two posts from years back.
+
+
+![image](https://user-images.githubusercontent.com/74713336/169637989-73bbf546-cc83-49bc-92f2-3529840cc70e.png)
+
 
 # 9. Don’t Just Go Simple: Be Bold
 Simplicity can work for some industries, but within the web design field you want your site to reflect the type of work you are capable of. Your overall design does not have to be over-the-top but stray away from plain white backgrounds.
