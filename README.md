@@ -16,7 +16,7 @@ Ellen Skye Riley went a bit simpler with her logo design, but it is amazingly ef
 
                                                                            
 
-                                                                          https://www.zarla.com/
+#Link here: https://www.zarla.com/
 
 2. Create An Original Tagline
 There is nothing worse than a cliché tagline on a portfolio website. After all, the entire purpose of your website portfolio is to show off your creative side. Stay far away from cliché taglines, and create something that adequately displays your unique style.
