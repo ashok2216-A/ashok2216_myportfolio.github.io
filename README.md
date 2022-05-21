@@ -11,6 +11,10 @@ Anthony Wiktor uses a simple but slick logo using just his initials. This logo w
 
 Ellen Skye Riley went a bit simpler with her logo design, but it is amazingly effective and intriguing.
 
+https://betalist.imgix.net/attachment/143691/image/1ab0faab9feea80713cadd6e8deb9592.jpeg?ixlib=rb-4.0.0&s=9c06056424e61d786f24ac6c4fc85191
+
+https://www.zarla.com/
+
 2. Create An Original Tagline
 There is nothing worse than a cliché tagline on a portfolio website. After all, the entire purpose of your website portfolio is to show off your creative side. Stay far away from cliché taglines, and create something that adequately displays your unique style.
 
