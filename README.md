@@ -12,8 +12,8 @@ Anthony Wiktor uses a simple but slick logo using just his initials. This logo w
 Ellen Skye Riley went a bit simpler with her logo design, but it is amazingly effective and intriguing.
 
 
-![image](![image](https://user-images.githubusercontent.com/74713336/169637410-6ac21dab-efec-4f75-8be9-3f2c2f3c5ad8.png)
-)
+![image](https://user-images.githubusercontent.com/74713336/169637410-6ac21dab-efec-4f75-8be9-3f2c2f3c5ad8.png)
+
 
 
 https://www.zarla.com/
