@@ -1,3 +1,4 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I8CHKDC)
 # 1. Use A Logo
 Design a logo that not only displays your creative style but also describes who you are as a designer. Keep in mind that your logo is usually where users’ eyes go when they first visit your site. You want to make a good impression from the get-go.
 
