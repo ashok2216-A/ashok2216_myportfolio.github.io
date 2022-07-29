@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'Ashok-Portfolio'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_17BD58C960E04CEDB2E17E7C10D3A669 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6B97A0229F6D4EBFBC4FF1586EF2B1D7 }}
           package: .
