@@ -208,7 +208,7 @@ div.text {
   height: var(--header-height);
   display: flex;
   justify-content: space-evenly;
-  align-items: flex-start;
+  align-items: center;
   font-weight: var(--font-semi);
 }
 
