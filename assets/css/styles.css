@@ -67,6 +67,9 @@ body {
   color: var(--second-color);
 }
 
+.container {
+  display: flex; /* enable flexbox */
+}
 
 h1,
 h2,
@@ -88,7 +91,9 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+  
 }
+
 
 /* CUSTOM CSS CLASSES */
 
@@ -181,7 +186,7 @@ div.text {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 900;
   font-size: 5vw;
-  letter-spacing: -5px;
+  letter-spacing: -2px;
   text-transform: uppercase;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -673,7 +678,7 @@ background: black;
 
 .shop_img {
   box-shadow: 0 10px 95px rgba(255, 5, 255, 0.65);
-  border-radius: 0.5rem;
+  border-radius: 0.1rem;
   overflow: hidden;
 }
 
