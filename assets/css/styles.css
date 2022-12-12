@@ -207,8 +207,8 @@ div.text {
 .nav {
   height: var(--header-height);
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
   font-weight: var(--font-semi);
 }
 
