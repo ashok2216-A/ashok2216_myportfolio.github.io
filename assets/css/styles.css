@@ -17,64 +17,17 @@
 /* FONT STYLE */
 :root {
   --body-font: "Poppins", sans-serif;
-  --big-font-size: 2rem;
+  --big-font-size: 1rem;
   --h2-font-size: 1.5rem;
   --nomral-font-size: 0.938rem;
 }
 
-/* Media Screen Max-Width: 768px */
-@media screen and (max-width: 768px) {
-  /* Centering nav items */
-  nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-  }
-
-  nav ul li {
-    padding: 10px 15px; /* Adjust as needed */
-  }
-
-  /* Centering home data */
-  .home_data {
-    text-align: center;
-  }
-
-  /* Centering home social icons */
-  .home_social {
-    justify-content: center;
-  }
-
-  /* Adjusting home image position */
-  .home_img {
-    position: static; /* Change from absolute to static */
-    width: 200px; /* Adjust as needed */
-    margin: 0 auto; /* Center horizontally */
-    margin-top: 20px; /* Adjust vertical spacing as needed */
-  }
-
-  /* Adjusting about image */
-  .about_img svg {
-    width: 250px; /* Adjust as needed */
-    margin: 0 auto; /* Center horizontally */
-  }
-
-  /* Adjusting work image */
-  .work_img {
-    width: 100%; /* Adjust as needed */
-    margin: 0 auto; /* Center horizontally */
-  }
-
-  /* Adjusting contact form width */
-  .control_input {
-    width: 100%; /* Adjust as needed */
-    margin: 0 auto; /* Center horizontally */
-  }
-
-  /* Adjusting footer social icons */
-  .footer_socials {
-    justify-content: center;
+/* Media Screen Min-Width : 768px */
+@media screen and (min-width: 768px) {
+  :root {
+    --big-font-size: 3.5rem;
+    --h2-font-size: 2rem;
+    --nomral-font-size: 1rem;
   }
 }
 
