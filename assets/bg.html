@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jarvis Animation</title>
+<style>
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .jarvis {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #333, #666);
+    overflow: hidden;
+    animation: glow 2s infinite alternate, shake 2s infinite;
+  }
+
+  .eye {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    animation: blink 3s infinite alternate;
+  }
+
+  .eye.left {
+    transform: translate(-80%, -50%);
+  }
+
+  .eye.right {
+    transform: translate(20%, -50%);
+  }
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    to {
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.8),
+                  0 0 30px rgba(255, 255, 255, 0.6),
+                  0 0 40px rgba(255, 255, 255, 0.4),
+                  0 0 60px rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+  }
+
+  @keyframes blink {
+    0%, 100% {
+      transform: scaleY(1);
+    }
+    50% {
+      transform: scaleY(0.1);
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="jarvis">
+    <div class="eye left"></div>
+    <div class="eye right"></div>
+  </div>
+</body>
+</html>
