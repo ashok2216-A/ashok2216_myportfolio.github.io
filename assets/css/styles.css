@@ -170,13 +170,22 @@ nav ul li a:hover:after{
 .header {
   width: 100%;
   position: fixed;
+/*  padding: 20px;*/
+  backdrop-filter: blur(40px); /* Add blur effect */
+  -webkit-backdrop-filter: blur(10px);
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background: black;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+/*  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);*/
 }
-
+.header.scrolled {
+    backdrop-filter: blur(40px); /* Add blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    background-color: transparent;
+    transition: background-color 0.3s ease; /* Change to the desired solid color */
+}
 
 /* animated text gradient */
  

@@ -18,7 +18,7 @@
 <body style="background-color:black;">
 
     <!-- Header Section -->
-    <header class="header">
+    <header class="header" id="header">
 
       <nav class="nav bd_grid">
 
@@ -821,6 +821,14 @@
     'floating-chat.donateButton.background-color': '#00b9fe',
     'floating-chat.donateButton.text-color': '#fff'
   });
+  window.addEventListener('scroll', function() {
+    const header = document.getElementById('header');
+    if (window.scrollY > 0) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+});
 </script>
     
       <br>
