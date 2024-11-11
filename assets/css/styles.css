@@ -33,7 +33,7 @@
 
 /* Margins */
 :root {
-  --mb-1: 0.5rem;
+  --mb-1: 1.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
   --mb-4: 2rem;
@@ -720,7 +720,7 @@ background: black;
 .button2 {
   display: inline-block;
   color: #fff;
-  padding: 0.75rem 2.5rem;
+  padding: 0.5rem 3.5rem;
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
   background: var(--gardient-color);
