@@ -808,7 +808,7 @@ body,
 }
 
 .origin {
-  transform: translate3d(0vw, 10vh, 0vmin);
+  transform: translate3d(0vw, 3vh, 0vmin);
 }
 
 .control {
