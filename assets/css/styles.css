@@ -826,20 +826,25 @@ body,
   position: absolute;
   transform-style: preserve-3d;
 }
+
 .star::before, .star::after {
   background: var(--background);
   border-radius: 50%;
-  box-shadow: var(--shadow);
+  box-shadow: 0 0 10px var(--background), 0 0 20px var(--background), 0 0 30px var(--background), var(--shadow);
   content: "";
   height: var(--size);
   width: var(--size);
+  filter: blur(0.5px); /* Slight blur to enhance the glow effect */
 }
+
 .star::before {
   transform: var(--transform);
 }
+
 .star::after {
   transform: scale3d(-1, -1, -1) var(--transform);
 }
+
 
 .star:nth-of-type(1) {
   --size: 0.4561411472vmin;
