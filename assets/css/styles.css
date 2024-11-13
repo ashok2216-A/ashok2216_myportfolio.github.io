@@ -793,7 +793,7 @@ background: black;
 .home_data {
   position: absolute;
   top: 30%;
-  left: 25%;
+  left: 35%;
   transform: translate(-50%, -50%); /* Center the content */
   color: white;
   text-align: center;
