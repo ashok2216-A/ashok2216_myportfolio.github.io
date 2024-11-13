@@ -29,6 +29,14 @@
     --h2-font-size: 2rem;
     --nomral-font-size: 1rem;
   }
+  body {
+        background-attachment: scroll; /* This prevents the background from moving in mobile view */
+        background-position: center top;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; /* This makes it fixed on desktop, but can be omitted if it causes issues */
+        background-repeat: no-repeat;/* Keeps the image centered */
+  }
 }
 
 /* Margins */
