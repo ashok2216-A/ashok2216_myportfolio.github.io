@@ -103,21 +103,7 @@ img {
 }
 
 /* Ensure the background image covers the entire container and is centered */
-body {
-    background-image: url('bg.png'); /* Make sure to replace with the actual image path */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; /* This makes it fixed on desktop, but can be omitted if it causes issues */
-    background-repeat: no-repeat;
-}
 
-/* Mobile-specific styles */
-@media only screen and (max-width: 768px) {
-    body {
-        background-attachment: scroll; /* This prevents the background from moving in mobile view */
-        background-position: center middle; /* Keeps the image centered */
-    }
-}
 /* CUSTOM CSS CLASSES */
 
 /* LAYOUT */
