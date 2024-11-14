@@ -311,22 +311,26 @@ div.text {
 
 .home_social {
   display: flex;
-  flex-direction: column;
-  display: grid;
-  grid-template-columns: repeat(3, 0.1fr); /* Adjust width as needed */
-  grid-gap: 0.1px; /* Adjust gap between items */
+  justify-content: center;
+  /* position: absolute; */
+  flex-direction: row;
+  flex-grow: 12;
+  /* display: grid; */
+  /* grid-template-columns: repeat(3, 0.1fr);  */
+  grid-gap: 1.8px; /* Adjust gap between items */
 
 }
 
 .home_social-icon {
   width: max-content;
-  margin-bottom: var(--mb-2);
-  font-size: 2.5rem;
-  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 2.0rem;
+  color: rgb(177, 177, 177);
 }
 
 .home_social-icon:hover {
   color: var(--first-color);
+  
 }
 
 .home_img {
@@ -591,7 +595,7 @@ div.text {
   }
   .home_social {
     padding-top: 0;
-    padding-bottom: 2.5rem;
+    padding-bottom: 1rem;
     flex-direction: row;
     align-self: flex-end;
   }
