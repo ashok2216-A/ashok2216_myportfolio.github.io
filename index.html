@@ -970,42 +970,26 @@ body {
         
       </footer>
     </main>
-
-
+    <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./assets/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@eshal-bot/chat-widget@latest/dist/chat-widget.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@eshal-bot/chat-widget@latest/dist/chat-widget.min.js"></script>
-<script>
-    ChatWidget.init({
-      orgId: 'org_1774608509824_lcynojf',
-      apiBaseUrl: 'https://dev-ui.eshal.ai',
-    });
-</script>
-
-
+    <!-- 🤖 F.R.I.D.A.Y AI Agent Integration -->
+    <script type="module" src="https://portfolio-widget.onrender.com/assets/widget.js"></script>
     <script>
-      AOS.init({
-        duration: 1200,
-        once: false,
+      AOS.init({ duration: 1200, once: false });
+      document.addEventListener('DOMContentLoaded', () => {
+          const checkReady = setInterval(() => {
+              if (window.ChatWidget) {
+                  clearInterval(checkReady);
+                  window.ChatWidget.init({
+                      botName: "F.R.I.D.A.Y",
+                      apiUrl: "https://portfolio-backend-zkv0.onrender.com/chat",
+                      welcomeMessage: "Hi! ⚡ I'm your AI agent. How can I help you today?"
+                  });
+              }
+          }, 100);
       });
-
-      document.querySelector('.menu-toggle').addEventListener('click', function() {
-  this.classList.toggle('menu-open');
-});
-
-<script type="module" src="https://portfolio-backend-zkv0.onrender.com/assets/widget.js"></script>
-
-<!-- 2. Initialize your Agent -->
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        window.ChatWidget.init({
-            botName: "F.R.I.D.A.Y",
-            apiUrl: "https://portfolio-backend-zkv0.onrender.com/chat",
-            welcomeMessage: "Hi! ⚡ I'm your AI agent. How can I help you today?"
-        });
-    });
-</script>
+    </script>
 
     </div>
   </body>
